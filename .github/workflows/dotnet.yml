@@ -21,6 +21,6 @@ jobs:
       run: dotnet restore website1
 
     - name: Build
-      run: dotnet build --no-restore website1
+      run: dotnet build --no-restore 
     - name: Test
       run: dotnet test --no-build --verbosity normal website1
