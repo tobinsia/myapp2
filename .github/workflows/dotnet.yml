@@ -18,9 +18,9 @@ jobs:
       with:
         dotnet-version: 3.1
     - name: Restore dependencies
-      run: dotnet restore website1/
+      run: dotnet restore website1
 
     - name: Build
-      run: dotnet build --no-restore website1/
+      run: dotnet build --no-restore website1
     - name: Test
-      run: dotnet test --no-build --verbosity normal website1/
+      run: dotnet test --no-build --verbosity normal website1
