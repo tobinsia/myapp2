@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tobinsia/Documents/myapp2/website1/website1.csproj": {}
+  },
+  "projects": {
+    "/Users/tobinsia/Documents/myapp2/website1/website1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tobinsia/Documents/myapp2/website1/website1.csproj",
+        "projectName": "website1",
+        "projectPath": "/Users/tobinsia/Documents/myapp2/website1/website1.csproj",
+        "packagesPath": "/Users/tobinsia/.nuget/packages/",
+        "outputPath": "/Users/tobinsia/Documents/myapp2/website1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tobinsia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
